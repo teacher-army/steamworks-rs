@@ -22,6 +22,7 @@ use std::sync::{Arc, Mutex, Weak};
 #[cfg(feature = "serde")]
 use serde::{Deserialize, Serialize};
 
+pub use sys::EInputActionOrigin;
 pub use crate::app::*;
 pub use crate::callback::*;
 pub use crate::error::*;
